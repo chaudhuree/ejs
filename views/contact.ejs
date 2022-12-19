@@ -14,11 +14,32 @@
     <title><%= pageTitle %></title>
   </head>
   <body>
+        <!-- navbar -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <a class="navbar-brand" href="#">ejs tasks</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="/">Home </a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="/contact">Contact</a>
+              </li>
+              
+            </ul>
+    
+          </div>
+        </nav>
+        <!-- navbar -->
     <h1>contact page</h1>
     Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid veniam
     architecto sed sequi sunt dicta pariatur doloremque harum aliquam. Dolores
     accusamus aut esse eius cumque quis ad aliquam sequi! Ad.
-    <div class="mt-5 text-center text-gray"><%= someText %></div>
+    <div class="mt-5 text-center text-blue"><%= someText %></div>
 
     <!-- script -->
     <script
