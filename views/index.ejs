@@ -5,10 +5,12 @@
       <div class="row">
         <div class="col-md-4">
           <ul class="list-group text-center">
-            <% if(tasks){ %> <% tasks?.forEach((task)=>{ %>
+            <% if(tasks){ %> 
+              <% tasks?.forEach((task)=>{ %>
             <li class="list-group-item"><%= task%></li>
             <% }) }%>
           </ul>
+          <!-- form to get data -->
           <form action="/" method="post" class="mt-5">
             <div class="form-group">
             <input class="form-control" type="text" placeholder="put your text" name="fname" />
