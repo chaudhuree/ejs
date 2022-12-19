@@ -1,0 +1,25 @@
+{
+  "name": "ejs",
+  "version": "1.0.0",
+  "description": "- ejs stands for embedded javascript - ejs is a templating language. - templating language helps us to manipulate dynamic content in HTML document. - Templating language: ejs, handlebars, pug etc. - Ejs allows us to run plain js in HTML - Ejs simple, light weight, fast - Most downloaded templating language on npm - Founded in Feb, 2011 - how to use ejs",
+  "main": "index.js",
+  "scripts": {
+    "startDev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chaudhuree/ejs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chaudhuree/ejs/issues"
+  },
+  "homepage": "https://github.com/chaudhuree/ejs#readme",
+  "dependencies": {
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "nodemon": "^2.0.20"
+  }
+}
